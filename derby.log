@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Mar 20 20:36:45 EDT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017f-a9e7-a7f1-00000e4edd20 
+on database directory C:\Users\nic7m\Assignment2-AdminApp\TeamDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@31221be2 
+Loaded from file:/C:/Users/nic7m/Lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.2+7-27
+user.dir=C:\Users\nic7m\Assignment2-AdminApp
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

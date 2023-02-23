@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.EditProductController">
+   <children>
+      <ComboBox fx:id="catalogBox" layoutX="225.0" layoutY="25.0" prefWidth="150.0" />
+      <Button fx:id="saveBtn" layoutX="392.0" layoutY="147.0" mnemonicParsing="false" onAction="#save" prefHeight="57.0" prefWidth="166.0" text="Save Changes" />
+      <Button fx:id="deleteBtn" layoutX="392.0" layoutY="221.0" mnemonicParsing="false" onAction="#delete" prefHeight="57.0" prefWidth="166.0" text="Delete" />
+      <Label layoutX="262.0" layoutY="6.0" text="Select Catalog" />
+      <TextField fx:id="nameField" layoutX="227.0" layoutY="171.0" />
+      <TextField fx:id="descriptionField" layoutX="227.0" layoutY="202.0" />
+      <TextField fx:id="brandField" layoutX="226.0" layoutY="234.0" />
+      <TextField fx:id="sizeField" layoutX="227.0" layoutY="266.0" />
+      <TextField fx:id="stockField" layoutX="227.0" layoutY="300.0" />
+      <TextField fx:id="idField" layoutX="226.0" layoutY="332.0" />
+      <TextField fx:id="priceField" layoutX="227.0" layoutY="364.0" />
+      <Label layoutX="187.0" layoutY="175.0" text="Name" />
+      <Label layoutX="161.0" layoutY="206.0" text="Description" />
+      <Label layoutX="191.0" layoutY="238.0" text="Brand" />
+      <Label layoutX="203.0" layoutY="270.0" text="Size" />
+      <Label layoutX="193.0" layoutY="304.0" text="Stock" />
+      <Label layoutX="207.0" layoutY="336.0" text="ID" />
+      <Label layoutX="200.0" layoutY="368.0" text="Price" />
+      <Label layoutX="376.0" layoutY="368.0" text="\$" />
+      <Button fx:id="cancelBtn" layoutX="509.0" layoutY="364.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="77.0" text="Cancel" />
+      <Label layoutX="271.0" layoutY="58.0" text="Select Item" />
+      <ComboBox fx:id="itemBox" layoutX="226.0" layoutY="83.0" prefWidth="150.0" />
+      <Button fx:id="firstConfirmBtn" layoutX="412.0" layoutY="25.0" mnemonicParsing="false" onAction="#firstConfirm" text="Confirm" />
+      <Button fx:id="secondConfirmBtn" layoutX="412.0" layoutY="83.0" mnemonicParsing="false" onAction="#secondConfirm" text="Confirm" />
+      <Label layoutX="169.0" layoutY="147.0" text="Category" />
+      <ComboBox fx:id="categoryField" layoutX="227.0" layoutY="143.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

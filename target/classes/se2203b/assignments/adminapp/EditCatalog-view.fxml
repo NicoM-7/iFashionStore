@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.EditCatalogController">
+   <children>
+      <ComboBox fx:id="catalogBox" layoutX="225.0" layoutY="150.0" prefWidth="150.0" />
+      <Button fx:id="saveBtn" layoutX="269.0" layoutY="260.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="64.0" text="Save" />
+      <Button fx:id="deleteBtn" layoutX="426.0" layoutY="221.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+      <Button fx:id="cancelBtn" layoutX="522.0" layoutY="361.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="64.0" text="Cancel" />
+      <TextField fx:id="catalogField" layoutX="226.0" layoutY="221.0" />
+      <Label layoutX="258.0" layoutY="116.0" text="Choose Catalog" />
+      <Label layoutX="235.0" layoutY="192.0" text="Enter new Catalog name" />
+      <Button fx:id="confirmBtn" layoutX="419.0" layoutY="150.0" mnemonicParsing="false" onAction="#confirm" prefHeight="25.0" prefWidth="64.0" text="Confirm" />
+   </children>
+</AnchorPane>
